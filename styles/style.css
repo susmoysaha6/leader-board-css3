@@ -19,6 +19,7 @@ main {
 
 hr {
     border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
 }
 
 /* top-players styles */
@@ -55,15 +56,24 @@ hr {
 }
 
 /* top-blogs */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 27px;
+}
+
 .blog {
     display: flex;
     /* width: 357px;
     height: 177px; */
+    align-items: center;
+
 }
 
 .blog .thumbnail img {
     width: 177px;
-    height: 177px;
+    height: 117px;
 }
 
 .blog-info {
